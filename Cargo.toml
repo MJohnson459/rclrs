@@ -2,5 +2,13 @@
 name = "rclrs"
 version = "0.1.0"
 authors = ["Michael Johnson <mjohnson459@gmail.com>"]
+links = "rcl"
+build = "build.rs"
 
 [dependencies]
+
+
+[build-dependencies]
+pkg-config = "0.3.9"
+cmake = "0.1.29"
+
